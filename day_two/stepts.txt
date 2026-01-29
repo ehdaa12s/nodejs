@@ -1,0 +1,14 @@
+ 1- npm init -y 
+2- npm i express nodemon 
+3- in package.json --> 
+            start: "nodemon index.js"
+    type: module 
+4- create index.js file 
+       => import express , file url , console , path 
+       => create collection 
+       => redir home screen 
+       => get all collection 
+       => post at collection
+       => upadte collection
+       => delete from collection
+       => start server 
