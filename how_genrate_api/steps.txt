@@ -1,0 +1,43 @@
+// MVC architecture 
+
+1-mkdir backend && cd backend
+2-mkdir -p src/{config,controllers,models,routes,middlewares}
+3-touch index.js .env package.json \
+src/app.js \
+src/config/db.js \
+src/controllers/user.controller.js \
+src/models/user.model.js \
+src/routes/user.routes.js \
+src/middlewares/error.middleware.js
+4- this result backend/
+│
+├── src/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   └── user.controller.js
+│   ├── models/
+│   │   └── user.model.js
+│   ├── routes/
+│   │   └── user.routes.js
+│   ├── middlewares/
+│   │   └── error.middleware.js
+│   └── app.js
+│
+├── index.js
+├── .env
+├── package.json
+------------------------
+  1- npm init -y 
+2- npm i express nodemon 
+3- in package.json --> 
+            start: "nodemon index.js"
+    type: module 
+4- npm install mongoose
+5- do architecture
+8-brew tap mongodb/brew
+  brew install mongodb-community
+
+9-brew services start mongodb-community
+10-npm start
+11- open mongodb and to connect add mongodb://127.0.0.1:27017
