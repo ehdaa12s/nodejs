@@ -1,0 +1,23 @@
+  1- npm init -y 
+2- npm i express nodemon 
+3- in package.json --> 
+            start: "nodemon index.js"
+    type: module 
+4- npm install mongoose
+5-mkdir models controllers routes config
+6-touch config/db.js
+7- touch models/Post.js
+8-brew tap mongodb/brew
+brew install mongodb-community
+
+9-brew services start mongodb-community
+10-npm start
+11- open mongodb and to connect add mongodb://127.0.0.1:27017
+
+12. research Mongoose 
+ - adds __v automatically
+  -sed to track document version
+- Helps avoid update conflicts
+- Not required for business logic
+
+
